@@ -1,0 +1,12 @@
+.container {
+    width: 100%;
+    height: 85vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr;
+    text-align: center;
+}
+
+.container h2 {
+    margin-top: 5vh;
+}

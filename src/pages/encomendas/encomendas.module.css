@@ -1,0 +1,52 @@
+.container {
+    width: 100%;
+    height: 85vh;
+    display: grid;
+    grid-template-columns: 7fr 3fr
+}
+
+.pacotes {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+.cardEncomenda {
+    width: 80%;
+    margin: 1vh 10%;
+    background-color: black;
+    color: white;
+    border-radius: 1vh;
+    border-style: solid;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.cardEncomenda h2{
+    margin-top: 1vh;
+}
+
+.encDados {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 2vh;
+}
+
+.adicionar {
+    height: 100%;
+}
+
+.adicionar form {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 5vh;
+}
+
+.adicionar form input{
+    background-color: black;
+    color: white;
+    height: 5vh;
+    margin-top: 2vh;
+    border-radius: 1vh;
+}
